@@ -9,6 +9,7 @@ services:
       - keycloak
     environment:
       # Важно: используйте ваш локальный IP-адрес, localhost может работать некорректно
+      # Вместо 127.0.0.1 возьмите адрес в вашей локальной сети (напр. 192.168.11.156)
       KEYCLOAK_URL: "YOUR_KEYCLOAK_URL"
       REDIRECT_URL: "YOUR_REDIRECT_URL"
       REALM: "REALM_NAME"

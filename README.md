@@ -38,3 +38,8 @@ docker compose down -v
 
 ## Схема происходящего
 ![image info](./scheme/auth_scheme.jpg)
+
+## OAuth2.0 flow
+OAuth2.0 для лучшего понимания просходящего 
+(OpenID расширяет OAuth 2.0)
+![image info](./scheme/OAuth2-nice_flow.png)

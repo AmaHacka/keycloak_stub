@@ -16,7 +16,7 @@ keycloak_openid = KeycloakOpenID(
     client_secret_key=settings.CLIENT_SECRET_KEY
 )
 
-options = {"verify_signature": False, "verify_aud": False, "verify_exp": False}
+options = {"verify_signature": True, "verify_aud": False, "verify_exp": True}
 
 
 def decode_token(token: str):
